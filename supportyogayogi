@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>90 Day Yoga — Support</title>
+  <meta name="description" content="Support page for 90 Day Yoga. FAQs, contact, troubleshooting, and policies." />
+  <style>
+    :root{--bg:#0b0f1a;--card:#121a2b;--text:#e8eefc;--muted:#a9b6d6;--link:#7aa7ff;--ok:#38d39f}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:linear-gradient(180deg,#070a12, #0b0f1a);color:var(--text)}
+    .wrap{max-width:920px;margin:0 auto;padding:40px 18px 70px}
+    header{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    h1{margin:0;font-size:28px;letter-spacing:.2px}
+    .badge{font-size:12px;color:var(--ok);border:1px solid rgba(56,211,159,.35);padding:6px 10px;border-radius:999px}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:18px}
+    @media(min-width:860px){.grid{grid-template-columns:1.1fr .9fr}}
+    .card{background:rgba(18,26,43,.92);border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:18px}
+    h2{margin:0 0 10px;font-size:16px;color:#cfe0ff}
+    p,li{color:var(--muted);line-height:1.55}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .btn{display:inline-block;padding:10px 12px;border-radius:12px;background:rgba(122,167,255,.14);border:1px solid rgba(122,167,255,.28)}
+    .small{font-size:12px;color:var(--muted)}
+    .hr{height:1px;background:rgba(255,255,255,.08);margin:14px 0}
+    code{background:rgba(0,0,0,.25);padding:2px 6px;border-radius:8px}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>90 Day Yoga — Support</h1>
+        <div class="small">Help, FAQs, and contact</div>
+      </div>
+      <div class="badge">Response: 24–72h</div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Contact</h2>
+        <p>
+          Need help? Email us and include your device model, iOS version, and the app version.
+        </p>
+        <div class="btns">
+          <!-- TODO: Replace with your real support email -->
+          <a class="btn" href="mailto:batikankursat@oultook.com?subject=90%20Day%20Yoga%20Support">Email Support</a>
+          <a class="btn" href="#faq">View FAQ</a>
+          <a class="btn" href="privacy.html">Privacy Policy</a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2 id="troubleshooting">Quick Troubleshooting</h2>
+        <ul>
+          <li><b>App freezes / stuck screen:</b> force close and reopen. If it continues, restart the phone.</li>
+          <li><b>Notifications not working:</b> iOS Settings → Notifications → 90 Day Yoga → Allow Notifications.</li>
+          <li><b>No sound / audio cues:</b> check Silent mode and in-app audio settings (if available).</li>
+          <li><b>Purchase not recognized:</b> restore purchases from the app (or contact support with Apple receipt).</li>
+          <li><b>Data missing:</b> ensure iCloud / device storage is available; send logs if app has an export option.</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2 id="refund">Refunds</h2>
+        <p>
+          Purchases are managed by Apple. Refund requests must be submitted through Apple:
+          <a href="https://reportaproblem.apple.com/" target="_blank" rel="noopener">reportaproblem.apple.com</a>
+        </p>
+      </section>
+
+      <aside class="card">
+        <h2 id="faq">FAQ</h2>
+        <ul>
+          <li><b>How do I start a program?</b> Open the app → select Level → Day 1 → Start.</li>
+          <li><b>Can I repeat a day?</b> Yes. You can replay any session anytime.</li>
+          <li><b>Do I need an account?</b> No account required (unless you add one later).</li>
+          <li><b>How to change language?</b> iOS Settings → 90 Day Yoga → Language (if enabled) or device language.</li>
+          <li><b>How to report a bug?</b> Email support with steps + screenshots + app version.</li>
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>App Info</h2>
+        <p class="small">
+          App: <b>90 Day Yoga</b><br />
+          Platform: iOS<br />
+          Support hours: Mon–Fri
+        </p>
+
+        <div class="hr"></div>
+
+        <h2>Legal</h2>
+        <p class="small">
+          This app does not provide medical advice. Consult a professional before starting any fitness program.
+        </p>
+        <p class="small">
+          <a href="privacy.html">Privacy Policy</a>
+          <!-- Optional: add Terms -->
+          <!-- · <a href="terms.html">Terms</a> -->
+        </p>
+      </aside>
+    </div>
+
+    <p class="small" style="margin-top:18px;">
+      Tip: If Apple asks for “Support URL”, use this page URL. If they ask for “Privacy Policy URL”, use <code>/privacy.html</code>.
+    </p>
+  </div>
+</body>
+</html>
